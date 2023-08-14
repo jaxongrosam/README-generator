@@ -16,10 +16,40 @@ const questions = [
     message: "What is the description of your project?",
   },
   {
+    type: "input",
+    name: "installation",
+    message: "Are there instructions to install and run your project?",
+  },
+  {
+    type: "input",
+    name: "usage",
+    message: "How do you use your project?",
+  },
+  {
     type: "list",
     name: "license",
     message: "What type of license would you like to use?",
     choices: ["MIT", "Apache 2.0", "GPL 3.0", "None"],
+  },
+  {
+    type: "input",
+    name: "contributors",
+    message: "List your collaborators here, if any.",
+  },
+  {
+    type: "input",
+    name: "tests",
+    message: "How do you test your project? (Provide examples)",
+  },
+  {
+    type: "input",
+    name: "github",
+    message: "What is your github username?",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your email address?",
   },
 ];
 

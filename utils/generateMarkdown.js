@@ -42,13 +42,22 @@ function generateMarkdown(data) {
   *[Questions](#questions)
 
   ## Installation
+  ${data.installation}
 
   ## Usage 
   ${data.usage}
   
   ${renderLicenseSection(data.license)}
 
+  ## Contributors
+  ${data.contributors}
 
+  ## Tests
+  ${data.tests}
+
+  ## Questions
+  ${data.github}
+  ${data.email}
 `;
 }
 
